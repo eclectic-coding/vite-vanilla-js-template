@@ -28,6 +28,9 @@
     "preview": "vite preview --open",
     "buildpreview": "vite build && vite preview --open"
   },
+  "engines": {
+    "node": ">=20.16.0"
+  },
   "devDependencies": {
     "autoprefixer": "^10.4.20",
     "cssnano": "^7.0.5",
