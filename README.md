@@ -31,28 +31,6 @@ cd vite-vanilla-js-template
 npm install
 ```
 
-**or**
-
-```bash
-npm install -g degit # if you don't have degit installed...
-
-#degit documentation at: https://github.com/Rich-Harris/degit
-```
-
-1. Use 'degit' to create a folder project using this template:
-
-```bash
-degit Barata-Ribeiro/vite-vanilla-js-template your-project-name
-```
-
-2. Then proceed to the folder and install dependencies:
-
-```bash
-cd your-project-name
-npm install
-```
-
-
 ## Post-Cloning Steps
 
 After cloning the template, make sure to clean up and update the following:
@@ -70,25 +48,25 @@ Use the following scripts for your development workflow:
 
 ```bash
 # Start the development server
-npm run dev
+yarn dev
 
 # Checks your code for any linting errors
-npm run lint
+yarn lint
 
 # Tries to automatically fix any linting errors present in your code
-npm run lint:fix
+yarn lint:fix
 
 # Formats your code in a consistent, predefined style using Prettier
-npm run format
+yarn format
 
 # Build for production
-npm run build
+yarn build
 
 # Preview the build
-npm run preview
+yarn preview
 
 # Build and preview the project
-npm run buildpreview
+yarn buildpreview
 ```
 
 ## Folder Structure
@@ -104,7 +82,10 @@ This is the structure of the project:
 │   ├── assets              # General assets for your project
 │   │   ├── images          # Store your images here
 │   ├── js                  # Javascript files of your project
+        ├── main.js         # Main Javascript file
 │   ├── styles              # CSS styles for your project
+        ├── _reset.scss     # CSS reset file
+        ├── main.scss       # Main SCSS file
 ├── .editorconfig           # Configuration for the EditorConfig plugin
 ├── .eslintignore           # Files to be ignored by ESLint
 ├── .eslintrc.json          # Configuration for ESLint
@@ -113,11 +94,11 @@ This is the structure of the project:
 ├── .prettierrc             # Configuration for Prettier
 ├── index.html              # The HTML file for your project
 ├── LICENSE                 # The license for your project
-├── package-lock.json       # Lockfile for your project's dependencies
 ├── package.json            # Defines your project and its dependencies
 ├── postcss.config.cjs      # Configuration for PostCSS
 ├── README.md               # This file
 ├── vite.config.js          # Configuration for Vite
+├── yarn.lock               # Lockfile for your project's dependencies
 ```
 
 ## License
