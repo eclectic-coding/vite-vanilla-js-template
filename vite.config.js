@@ -5,12 +5,12 @@ export default defineConfig({
   publicDir: true,
   root: './',
   build: {
-    outDir: 'dist',
+    outDir: 'dist'
   },
   plugins: [
     eslint({
       cache: false,
-      fix: true,
-    }),
-  ],
+      fix: true
+    })
+  ]
 });
