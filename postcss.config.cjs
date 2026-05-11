@@ -8,6 +8,6 @@ module.exports = {
     autoprefixer: {},
     cssnano: {
       preset: 'default'
-    },
-  },
+    }
+  }
 };

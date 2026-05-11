@@ -32,17 +32,18 @@
     "node": ">=22.0.0"
   },
   "devDependencies": {
+    "@eslint/js": "^10.0.1",
     "autoprefixer": "^10.5.0",
     "cssnano": "^8.0.1",
-    "eslint": "^8.57.1",
-    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint": "^10.3.0",
     "eslint-config-prettier": "^10.1.8",
-    "eslint-plugin-import": "^2.32.0",
+    "eslint-plugin-import-x": "^4.16.2",
     "eslint-plugin-prettier": "^5.5.5",
     "postcss": "^8.5.14",
     "postcss-nesting": "^14.0.0",
     "prettier": "^3.8.3",
     "sass": "^1.99.0",
+    "typescript": "^6.0.3",
     "vite": "8.0.12",
     "vite-plugin-eslint": "^1.8.1"
   },
