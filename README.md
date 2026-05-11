@@ -9,7 +9,7 @@ This template uses the following dependencies:
 - **[Vite](https://vitejs.dev/):** A next-generation frontend build tool that offers a fast dev server and optimized builds.
 - **[ESLint](https://eslint.org/):** An open-source JavaScript linting utility that helps maintain a consistent code style.
 - **[Prettier](https://prettier.io/):** An opinionated code formatter that enforces a consistent style across your project.
-- **[eslint-config-airbnb-base](https://www.npmjs.com/package/eslint-config-airbnb-base) and [eslint-config-prettier](https://www.npmjs.com/package/eslint-config-prettier):** ESLint configurations adhering to Airbnb's base JS style guide and disabling stylistic rules that might conflict with Prettier.
+- **[eslint-config-airbnb-extended](https://github.com/eslint-config/airbnb-extended) and [eslint-config-prettier](https://www.npmjs.com/package/eslint-config-prettier):** ESLint configurations adhering to Airbnb's base JS style guide and disabling stylistic rules that might conflict with Prettier.
 - **[eslint-plugin-import](https://www.npmjs.com/package/eslint-plugin-import) and [eslint-plugin-prettier](https://www.npmjs.com/package/eslint-plugin-prettier):** ESLint plugins that enforce ES2015+ import/export syntax and integrate Prettier with ESLint.
 - **[autoprefixer](https://www.npmjs.com/package/autoprefixer) and [postcss](https://postcss.org/):** Autoprefixer automatically adds vendor prefixes to CSS, while PostCSS provides a way to transform CSS with JavaScript.
 - **[cssnano](https://cssnano.github.io/cssnano/):** A tool that helps to compress and optimize CSS files.
