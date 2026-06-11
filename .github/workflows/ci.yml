@@ -10,13 +10,17 @@ jobs:
   build:
     runs-on: ubuntu-latest
 
-    steps:
-      - uses: actions/checkout@v4
+    strategy:
+      matrix:
+        node-version: [22, 24]
 
-      - name: Setup Node.js
-        uses: actions/setup-node@v4
+    steps:
+      - uses: actions/checkout@v5
+
+      - name: Setup Node.js ${{ matrix.node-version }}
+        uses: actions/setup-node@v5
         with:
-          node-version: 22
+          node-version: ${{ matrix.node-version }}
           cache: yarn
 
       - name: Install dependencies

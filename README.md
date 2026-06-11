@@ -9,8 +9,10 @@ This template uses the following dependencies:
 - **[Vite](https://vitejs.dev/):** A next-generation frontend build tool that offers a fast dev server and optimized builds.
 - **[ESLint](https://eslint.org/):** An open-source JavaScript linting utility that helps maintain a consistent code style.
 - **[Prettier](https://prettier.io/):** An opinionated code formatter that enforces a consistent style across your project.
-- **[eslint-config-airbnb-extended](https://github.com/eslint-config/airbnb-extended) and [eslint-config-prettier](https://www.npmjs.com/package/eslint-config-prettier):** ESLint configurations adhering to Airbnb's base JS style guide and disabling stylistic rules that might conflict with Prettier.
-- **[eslint-plugin-import](https://www.npmjs.com/package/eslint-plugin-import) and [eslint-plugin-prettier](https://www.npmjs.com/package/eslint-plugin-prettier):** ESLint plugins that enforce ES2015+ import/export syntax and integrate Prettier with ESLint.
+- **[@eslint/js](https://www.npmjs.com/package/@eslint/js) and [eslint-config-prettier](https://www.npmjs.com/package/eslint-config-prettier):** ESLint's official JS recommended ruleset and a config that disables stylistic rules that might conflict with Prettier.
+- **[eslint-plugin-import-x](https://www.npmjs.com/package/eslint-plugin-import-x) and [eslint-plugin-prettier](https://www.npmjs.com/package/eslint-plugin-prettier):** ESLint plugins that enforce ES2015+ import/export syntax and integrate Prettier with ESLint.
+- **[Sass](https://sass-lang.com/):** A CSS preprocessor that adds variables, nesting, mixins, and more to your stylesheets.
+- **[TypeScript](https://www.typescriptlang.org/):** Provides type-checking support during development via Vite's TypeScript integration.
 - **[autoprefixer](https://www.npmjs.com/package/autoprefixer) and [postcss](https://postcss.org/):** Autoprefixer automatically adds vendor prefixes to CSS, while PostCSS provides a way to transform CSS with JavaScript.
 - **[cssnano](https://cssnano.github.io/cssnano/):** A tool that helps to compress and optimize CSS files.
 - **[postcss-nesting](https://www.npmjs.com/package/postcss-nesting):** A PostCSS plugin that allows you to use modern CSS Nesting in your stylesheets.
